@@ -1,0 +1,24 @@
+Name: Sean M. Kennedy
+Email: sean.m.kennedy@wsu.edu
+
+Source files included:
+
+    getExpressions.c/h handles the file I/O and the logic for interpreting postfix regular expressions
+
+    nfa.c/h handles the data structures for the NFA and associated Transition objects and provides
+some helper functions for creating, displaying, and cleaning up NFAs.
+
+    stack.c/h is a generic stack implementation to help with postfix interpretation.
+
+How to compile:
+
+    Call `make`         to compile with -Wall flags
+    Call `make debug`   to compile with -Wall and -g flags
+    Call `make testing` to compile with debug flags and -fsanitize=address flag
+    Call `make clean`   to clean up object files
+
+How to run:
+
+    `./re2nfa input1.txt <optional_input2.txt> <optional_input3.txt> ...`
+
+    Note: You can pass any number of input files, the program will separate the output of each file.

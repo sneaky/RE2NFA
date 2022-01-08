@@ -1,0 +1,3 @@
+a*b|
+ab|*b&
+ab|*a&b&a*&*ab|&ab|&

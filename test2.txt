@@ -1,0 +1,10 @@
+a*b|
+ab|*b&
+ab|*a&b&a*&*ab|&ab|&
+aba|
+abf|
+abc|
+a*
+b*
+abcde()
+abcde*
